@@ -14,11 +14,11 @@ public class Main {
 
         for (int i = 0; i < a.length; i++) { // перебираем каждый наш элемент массива
             if (a[i] == number) { // находим тот что нам нужен и определяем его индекс
-                System.out.println(a[i]);// вывожим на экран индекс
+                System.out.println(i);// вывожим на экран индекс
                 break;
 
             }
-            
+
 
         }
 
